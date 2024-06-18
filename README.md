@@ -7,14 +7,11 @@ In this paper, we introduce a novel method for microbiome data imputation, mbVDi
 
 ## Installations
 * Windows
-* NVIDIA GPU (both pretrained VAE and trained VTrans on a single Nvidia GeForce RTX 3090)
+* NVIDIA GPU (both pretrained VAE and trained mbVDiT on a single Nvidia GeForce RTX 3090)
 * ``pip install -r requiremnts.txt``
 
 ## Data preprocessing
 If you wish to perform data preprocessing, you can run the script in the Jupyter folder.
 
-## Pre-train VAE
-``python pretrain_vae/vae_main.py``
-
-## Training VTrans
-``python VTrans/main.py``
+## Training mbVDiT
+``python main.py``
